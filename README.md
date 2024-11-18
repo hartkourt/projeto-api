@@ -25,15 +25,15 @@ Banco de Dados (utiliza Prisma para gerenciar o banco de dados, junto com MongoD
 
 Instalação
 Clone o repositório:
-git clone https://github.com/seu-usuario/projeto-api.git
+git clone https://github.com/hartkourt/projeto-api
 cd projeto-api
 
 Instale as dependências do projeto:
 npm install
 
 Configure o arquivo .env com as variáveis necessárias:
-JWT_SECRET=seu-segredo-aqui
-DATABASE_URL=string-de-conexao-do-banco-de-dados
+DATABASE_URL="mongodb+srv://amandahartkopf:%25031928%25@projeto.h3r6y.mongodb.net/Projeto?retryWrites=true&w=majority&appName=Projeto"
+JWT_SECRET="0a38bb050d4b273cd7948a3d1da92e771cdbedf65d7edc89a97a941d2fc7fb2d"
 
 Rode as migrações para criar as tabelas no banco de dados (se estiver usando Prisma):
 npx prisma migrate dev
